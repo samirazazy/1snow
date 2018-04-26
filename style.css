@@ -1,0 +1,453 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family:'Montserrat' , sans-serif;
+    
+}
+
+.clear
+{
+    clear: both;
+}
+
+.container
+{
+    width: 1100px;
+   margin: auto;
+}
+
+.header
+{
+    height: 650px;
+    background-image: url(image/head.jpg);
+    background-size: cover;
+}
+ 
+.head
+{
+    padding-top: 20px;
+}
+
+.head imag
+{
+    float: left;
+
+}
+
+.head .nav
+{
+    float: right;
+}
+
+.head .nav ul li 
+{
+    display: inline-block;
+    
+}
+.head .nav a
+{
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.header .content
+{
+   padding-top: 100px;
+    text-align: center;
+}
+
+.header .content h1
+{
+    font-size: 50px;
+    color: white;
+}
+
+.header .content p
+{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+
+.header .content button
+{
+    width: 200px;
+    outline: 0;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: all .5s ease-in-out;
+    text-transform: uppercase;
+}
+
+
+.header .content button:last-child
+{
+    background: #8be2e5;
+    color:white;
+}
+
+.header .content button:hover
+{
+    background: #C1C1C1;
+}
+
+.header .end
+{
+    width: 25px;
+    height: 40px;
+    border-radius: 20px;
+    outline: 0;
+    border: 2px solid white;
+    text-align: center;
+    margin-left: 545px;
+    margin-top:50px;
+}
+
+.header .end .scroll
+{
+    width: 4px;
+    height: 8px;
+    background: white;
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    top:5px;
+    animation: scrolling 1s ease-in-out infinite;
+}
+
+@keyframes scrolling
+{
+    0% {opacity: 0; top:5px;}
+    50% {opacity: 1; top:10px;}
+    100% {opacity: 0; top:30px;}
+}
+
+/* *********** content ************/
+
+.second
+{
+    text-align: center;
+    height: 600px;
+    margin-bottom:200px;
+    background-image: url(image/content.jpg);
+    padding-top: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.second h2
+{
+  font-size: 50px;
+  color: white;
+}
+
+.second p
+{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 35px;
+    
+}
+
+/* *********** Featuer ************/
+
+.feat
+{
+    width: 31%;
+    margin-right: 2%;
+    float: left;
+}
+
+.feat h3
+{
+  font-size: 25px;
+  color: #555;
+}
+
+.feat p
+{
+    font-size: 15px;
+    color: rgb(141, 137, 137);;
+    padding-bottom: 80px;
+    line-height: 1.5;
+}
+
+.feat:nth-of-type(1) hr
+{
+    height: 5px;
+    border: 0;
+    background:#F1551E;
+    border-radius: 15px;
+}
+.feat:nth-of-type(2) hr
+{
+    height: 5px;
+    border: 0;
+    background:#F1E01E;
+    border-radius: 15px;
+}
+.feat:nth-of-type(3) hr
+{
+    height: 5px;
+    border: 0;
+    background: #6DF11E;
+    border-radius: 15px;
+}
+
+/* *********** pricing ************/
+
+.pricing
+{
+    background: #68CBD5;
+    height: 800px;
+    text-align: center;
+}
+
+.pricing h1
+{
+    padding-top: 100px;
+    color: white;
+    font-size: 50px;
+
+}
+
+.pricing p 
+{
+    color: white;
+    font-size: 20px;
+   
+}
+
+.flex
+{
+    display: flex;
+    justify-content: center;
+}
+
+.flex .price:nth-of-type(1),.flex .price:nth-of-type(3)
+{
+    margin-top: 25px;
+}
+
+.flex .price ul
+{
+    list-style: none;
+}
+
+.flex .price ul:hover li.doller
+{
+   background: #3B4043;
+}
+
+.flex .price ul:hover 
+{
+   margin-top: 30px;
+   transition: all .5s ease-in-out;
+}
+
+.flex .price .person 
+{
+    background: #1E1E1E;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.flex .price .doller 
+{
+    background: #1E1E1E;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+
+.flex .price .doller small 
+{
+    color: #777;
+}
+
+.flex .price .cont
+{
+    background: white;
+    font-size: 16px;
+    padding: 15px;
+    color: #888;
+    border-bottom: 2px solid #F0F0F0;
+}
+
+.flex .price .list
+{
+    background: white;
+    font-size: 20px;
+    padding: 15px;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 2px solid #F0F0F0;
+}
+
+.flex .price button
+{
+    width: 100%;;
+    background: white;
+    font-size: 20px;
+    padding: 15px;
+    color: #68CBD5;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+}
+
+.flex .price button:hover
+{
+    background: #E4DEDE;
+}
+
+/* *********** invite ************/
+
+.invite
+{
+    text-align: center;
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #ddd;
+}
+
+.invite h3
+{
+    color: #1E1E1E;
+    font-size: 40px;
+}
+
+.invite p
+{
+    color:#666;
+    font-size: 20px;
+}
+
+.invite input
+{
+    background: white;
+    color: #888;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 0;
+    padding: 20px;
+    outline: 0;
+    width: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+
+}
+
+.invite button
+{
+    background: #68CBD5;
+    font-size: 16px;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+/* *********** information ************/
+
+.information
+{
+    height: 400px;
+    padding-top: 40px;
+}
+
+.info
+{
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+.information .img
+{
+    width: 30%;
+    float: left;
+    
+}
+
+.information p
+{
+    
+    width: 70%;
+    float: right;
+    color: #B2B3B7;
+    font-size: 18px;
+}
+
+.information p span
+{
+    font-style: italic;
+    font-size: 15px;
+    color: #888;
+}
+
+.information hr
+{
+    height: 2px;
+    border: 0;
+    background: #EAE5E5;
+}
+
+
+/* *********** footer ************/
+
+.left
+{
+    float: left;
+    padding-bottom: 50px;    
+}
+
+.right
+{
+    float: right; 
+    padding-bottom: 50px;    
+}
+
+.left span
+{
+    color: #1E1E1E;
+    font-size: 18px;
+}
+
+.right span
+{
+    color: #888;
+    font-size: 18px;
+    
+}
+
+.left img
+{
+    padding-left: 10px;
+}
